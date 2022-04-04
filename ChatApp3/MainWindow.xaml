@@ -1,0 +1,17 @@
+﻿<Window x:Class="ChatApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BTNsignin" Content="Sign in" HorizontalAlignment="Left" Margin="660.286,32.162,0,0" VerticalAlignment="Top" Width="103.571" Height="23" Click="BTNsignin_Click"/>
+        <TextBox x:Name="TBsignin" HorizontalAlignment="Left" Height="23" Margin="26.612,32.162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="602.653"/>
+        <Button x:Name="BTNSend" Content="Send" HorizontalAlignment="Left" Margin="660.286,377.06,0,0" VerticalAlignment="Top" Width="103.571" Height="23" IsDefault="True" Click="BTNSend_Click"/>
+        <TextBox x:Name="TBsend" HorizontalAlignment="Left" Height="23" Margin="26.612,377.06,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="602.653"/>
+        <TextBox x:Name="TBSent" HorizontalAlignment="Left" Margin="27,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="737" Height="279"/>
+
+    </Grid>
+</Window>
